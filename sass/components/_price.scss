@@ -1,0 +1,151 @@
+.block8 {
+    background-color: #7169f4;
+    margin-top: 100px;
+    height: 600px;
+
+    .block9 {
+        text-align: center;
+
+        p {
+            padding-top: 50Px;
+            font-family: $lobsteregular;
+            color: $mauve;
+        }
+
+        h5 {
+            font-size: 40Px;
+            font-family: $PoppinsSemiBold;
+        }
+    }
+
+    .block10 {
+
+        margin-left: 100px;
+        text-align: left;
+        margin-top: 60px;
+        display: flex;
+
+
+        .block11 {
+            text-align: center;
+            background-color: #FFFFFF;
+            margin: 0 20px;
+            border-radius: 36px;
+            box-shadow: 1px 0.1px $mauve;
+            height: 400px;
+            width: 700px;
+
+            h6 {
+                font-size: 20Px;
+                padding-top: 30px;
+                font-family: $lobsteregular;
+            }
+
+            .textmilieu {
+                padding-top: 70px;
+                padding-left: 20Px;
+                padding-right: 20px;
+                font-family: $poppinslight;
+                ;
+
+
+            }
+
+            .prix {
+                padding-top: 70px;
+                color: #1000FF;
+                font-family: $PoppinsSemiBold;
+            }
+
+            .block12 {
+                margin-top: 60px;
+                border-radius: 50px;
+                border-color: #1000FF;
+                background-color: white;
+                height: 30px;
+                width: 93px;
+                font-family: $poppinsmedium;
+
+                :hover {
+                    background-color: $background;
+
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #42495B;
+                }
+            }
+
+
+
+
+        }
+
+
+
+
+
+    }
+}
+
+
+//Responsive
+
+
+
+
+@media (max-width: 900px) {
+
+
+    .block8 {
+        background-color: #7169f4;
+        height: 700px;
+        width: 889px;
+
+    }
+
+    .block9 {
+        margin-right: 100px;
+    }
+
+    .block10 {
+        height: 700px;
+        width: 650px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .textmilieu {
+        text-align: left;
+    }
+}
+
+@media(max-width: 600px) {
+    .block8 {
+        margin-top: 200px;
+        height: 1400px;
+        width: 590px;
+
+    }
+
+    .block10 {
+        height: 100px;
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+
+    }
+
+    .prix {
+        margin-top: -30px;
+    }
+
+    .block12 {
+        margin-top: 20px;
+    }
+
+}

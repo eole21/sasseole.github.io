@@ -1,0 +1,34 @@
+.block13 {
+
+    text-align: center;
+
+
+    p {
+        padding-top: 100Px;
+        font-family: $poppinsmedium;
+        color: $mauve;
+
+    }
+
+    .h62 {
+        font-size: 20px;
+        font-family: $latoregular;
+    }
+
+    input {
+        margin-top: 20Px;
+        width: 300Px;
+        height: 25px;
+    }
+
+    .derbutton {
+        border-radius: 50px;
+        background-color: $background;
+        height: 30px;
+        width: 200px;
+        margin-top: 10px;
+        width: 93px;
+        margin-left: 10Px;
+        font-family: $poppinsmedium;
+    }
+}

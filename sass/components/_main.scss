@@ -1,0 +1,228 @@
+.block2 {
+    margin-top: 100px;
+
+    .block3 {
+
+        margin-top: 100px;
+        width: 533px;
+        height: 359px;
+
+        h2 {
+            padding-top: 10px;
+        }
+
+        .title {
+            .devant {
+                font-family: $lobsteregular;
+                color: $mauve;
+            }
+
+            h2 {
+                color: #42495b;
+                font-family: $poppinslight;
+
+            }
+        }
+
+        .texte {
+            margin-top: 20px;
+            width: 350px;
+
+
+
+        }
+
+
+        .buttondroite {
+            margin-top: 50px;
+            border-radius: 50px;
+            background-color: $background;
+            height: 30px;
+            width: 103px;
+
+            a {
+                text-decoration: none;
+                color: $blanche;
+                font-family: $PoppinsSemiBold;
+
+            }
+        }
+    }
+
+
+
+
+    .font2 {
+        margin-right: 200px;
+
+    }
+
+    .grandeimage2 {
+        position: absolute;
+        top: 1000px;
+        left: 600px;
+        width: 800px;
+    }
+}
+
+.block4 {
+
+    .block5 {
+        margin-left: 200px;
+        margin-top: 100px;
+
+        p {
+            font-family: $latoregular;
+            color: $mauve;
+        }
+
+
+
+        h3 {
+            font-size: 30px;
+            font-family: $PoppinsSemiBold;
+        }
+    }
+
+    .block6 {
+        margin-left: 100px;
+        text-align: left;
+        flex-shrink: 0;
+        height: 470px;
+        margin-top: 60px;
+        display: flex;
+        background-image: url(../img/background-service.png);
+
+
+
+        .mot {
+            width: 318px;
+        }
+
+        .block7 {
+            text-align: center;
+            background-color: white;
+            margin: 0 20px;
+            border-radius: 36px;
+            box-shadow: 0.1px 0.1px #7E76F9;
+
+
+
+
+            .logo2 {
+                padding-top: 25px;
+            }
+
+            h4 {
+                padding-top: 50px;
+                font-family: $PoppinsSemiBold;
+            }
+
+            .mot {
+                padding-top: 40px;
+                margin-left: 60px;
+                text-align: left;
+                font-family: $PoppinsSemiBold;
+            }
+
+            button {
+                border-radius: 50px;
+                background-color: #3E34CD;
+                height: 30px;
+                width: 200px;
+                margin-top: 90px;
+                margin-left: 200px;
+                width: 93px;
+
+                a {
+                    text-decoration: none;
+                    color: $blanche;
+                    font-family: $latoregular;
+
+                }
+
+
+            }
+        }
+    }
+
+}
+
+
+//Responsive
+
+@media (max-width: 900px) {
+    .grandeimage2 {
+        display: none;
+    }
+
+
+    .font2 {
+        width: 300px;
+        height: 400px;
+
+    }
+
+
+
+    .block6 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+
+    .block7 {
+
+        height: 300px;
+        width: 200px;
+
+
+
+
+    }
+
+    .mot {
+        display: none;
+
+    }
+
+    .plus {
+        height: 2000px;
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        margin-top: 300px;
+
+    }
+
+
+
+}
+
+@media(max-width: 600px) {
+
+    .font2 {
+        width: 500px;
+        height: 500px;
+        margin-left: 200px;
+    }
+
+    .block6 {
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .block7 {
+        height: 200px;
+        width: 200px;
+
+
+    }
+
+    .plus {
+        display: none;
+    }
+
+}

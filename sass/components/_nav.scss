@@ -1,0 +1,76 @@
+.logo {
+    align-items: center;
+    display: flex;
+
+    // margin-top: 30px;
+    margin-left: 100px;
+
+    p {
+        font-family: $dosis;
+        width: 189px;
+        height: 40px;
+
+    }
+}
+
+.imglogo {
+    height: 95px;
+    width: 82px;
+
+}
+
+
+
+.menu ul {
+
+    display: flex;
+    text-decoration: none;
+    margin-left: 125vh;
+    position: relative;
+    top: -80px;
+    z-index: 2;
+
+
+
+}
+
+.menu ul li {
+    padding: 0 10px;
+    list-style: none;
+    color: $blanche;
+    font-family: $poppins;
+
+
+
+}
+
+
+.font {
+    position: relative;
+    left: 560px;
+    top: -135px;
+    z-index: 1;
+
+
+
+}
+
+//Responsive
+
+@media (max-width: 900px) {
+    .logo {
+        margin-left: 10px;
+    }
+
+    .menu ul {
+        margin-left: 200px;
+
+        li {
+            color: black;
+        }
+
+    }
+
+
+
+}

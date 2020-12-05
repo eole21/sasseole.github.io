@@ -1,0 +1,152 @@
+header {
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+
+
+article {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    z-index: 2;
+
+    .block1 {
+        .monbutton {
+
+            margin-top: 70px;
+            border-radius: 50px;
+
+            background-color: $background;
+            height: 30px;
+            width: 143px;
+
+            a {
+                text-decoration: none;
+                color: $blanche;
+
+
+            }
+        }
+
+        div {
+            width: 547px;
+            height: 159px;
+            font-family: $poppinsbold;
+
+            .monp {
+
+                font-size: 30px;
+
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+
+
+        }
+
+        p {
+            font-size: 16px;
+            font-size: $poppinslight;
+        }
+
+        button {
+            margin-top: 50px;
+            font-family: $poppinsmedium;
+        }
+
+
+    }
+
+
+
+
+    div button {
+        width: 216px;
+        height: 49px;
+    }
+
+    .grandeimage {
+        position: relative;
+        z-index: 3;
+        top: -20px;
+        left: -30px;
+    }
+
+}
+
+
+
+
+
+
+.souris {
+    margin-top: -90px;
+    margin-left: 600px;
+}
+
+//Responsive
+
+@media (max-width: 900px) {
+
+    header {
+        background-image: none;
+    }
+
+    .monp {
+        font-size: 5px;
+        margin-left: 200px;
+    }
+
+    h1 {
+        margin-left: 200px;
+        font-size: 9px;
+    }
+
+    .pp {
+        margin-left: 200px;
+
+    }
+
+    .grandimage {
+        width: 250px;
+        height: 250px;
+    }
+
+    .monbutton {
+        margin-left: 200px;
+    }
+
+    .souris {
+        margin-top: -10px;
+        margin-left: 500px;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    article {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    .block1 {
+        margin-left: -60px;
+    }
+
+    .souris {
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+
+
+
+
+}
